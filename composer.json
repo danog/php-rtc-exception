@@ -1,0 +1,33 @@
+{
+  "name": "quasarstream/exception",
+  "type": "library",
+  "description": "A lightweight exception handling package for PHP WebRTC applications.",
+  "keywords": [
+    "webrtc"
+  ],
+  "homepage": "https://www.quasarstream.com/webrtc",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Amin Yazdanpanah",
+      "email": "github@aminyazdanpanah.com"
+    },
+    {
+      "name": "Sana Moniri",
+      "email": "s.mo@quasarstream.com"
+    },
+    {
+      "name": "Quasar Stream Community",
+      "homepage": "https://quasarstream.com/teams"
+    }
+  ],
+  "require": {
+    "php": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webrtc\\Exception\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
