@@ -1,4 +1,4 @@
-# DTLS
+# WebRTC Exception
 
 A lightweight exception handling package for PHP WebRTC applications.
 
