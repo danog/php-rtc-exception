@@ -1,7 +1,7 @@
 {
-    "name": "quasarstream/exception",
+    "name": "danog/php-rtc-exception",
     "type": "library",
-    "description": "A lightweight exception handling package for PHP WebRTC applications.",
+    "description": "A lightweight exception handling package for PHP WebRTC applications. Fork with FFI made optional and a pure-PHP DTLS/SRTP stack, maintained for MadelineProto.",
     "keywords": [
         "webrtc"
     ],
@@ -29,5 +29,8 @@
             "Webrtc\\Exception\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "replace": {
+        "quasarstream/exception": "self.version"
+    }
 }
