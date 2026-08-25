@@ -29,8 +29,5 @@
             "Webrtc\\Exception\\": "src"
         }
     },
-    "minimum-stability": "dev",
-    "replace": {
-        "quasarstream/exception": "self.version"
-    }
+    "minimum-stability": "dev"
 }
