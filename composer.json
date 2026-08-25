@@ -1,7 +1,7 @@
 {
     "name": "danog/php-rtc-exception",
     "type": "library",
-    "description": "A lightweight exception handling package for PHP WebRTC applications. Fork with FFI made optional and a pure-PHP DTLS/SRTP stack, maintained for MadelineProto.",
+    "description": "Lightweight exceptions shared by the WebRTC components. MadelineProto's PHP 8.2+ fork is a Composer-compatible foundation of the modular danog/php-rtc stack.",
     "keywords": [
         "webrtc"
     ],

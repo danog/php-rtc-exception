@@ -2,9 +2,15 @@
 
 A lightweight exception handling package for PHP WebRTC applications.
 
+## About this fork
+
+This is the `danog/php-rtc-exception` PHP 8.2+ fork used by MadelineProto. It is published separately from upstream and declares that it replaces `quasarstream/exception`.
+
+The forked stack keeps the upstream `quasarstream/*` dependency constraints for compatibility. Each `danog/php-rtc-*` package replaces its upstream counterpart, so consumers select the complete maintained stack by requiring the corresponding danog packages together.
+
 ## Requirements
 
-- PHP 8.4 or higher
+- PHP 8.2 or higher
 
 ## Documentation
 
