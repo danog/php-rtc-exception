@@ -11,6 +11,6 @@
 
 namespace Webrtc\Exception;
 
-class InvalidArgumentException extends \InvalidArgumentException implements WebrtcExceptionInterface
+final class InvalidArgumentException extends \InvalidArgumentException implements WebrtcExceptionInterface
 {
 }

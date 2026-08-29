@@ -11,6 +11,6 @@
 
 namespace Webrtc\Exception;
 
-class Exception extends \Exception implements WebrtcExceptionInterface
+final class Exception extends \Exception implements WebrtcExceptionInterface
 {
 }

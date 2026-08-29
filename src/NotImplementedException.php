@@ -11,6 +11,6 @@
 
 namespace Webrtc\Exception;
 
-class NotImplementedException extends \Exception implements WebrtcExceptionInterface
+final class NotImplementedException extends \Exception implements WebrtcExceptionInterface
 {
 }

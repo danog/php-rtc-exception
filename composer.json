@@ -32,5 +32,19 @@
             "Webrtc\\Exception\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    },
+    "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.9"
+    },
+    "extra": {
+        "bamarni-bin": {
+            "bin-links": "true",
+            "forward-command": "true"
+        }
+    }
 }
